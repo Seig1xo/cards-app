@@ -2,8 +2,6 @@ import { LitElement, html, css } from 'lit';
 import "@lrnwebcomponents/meme-maker/meme-maker.js";
 import "owl-card/src/owl-card.js";
 
-const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
-
 class CardsApp extends LitElement {
   static properties = {
     
